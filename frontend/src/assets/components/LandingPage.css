@@ -1,0 +1,76 @@
+/* Reset global */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* Imagen de fondo */
+.landing-page {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinea los elementos hacia la izquierda */
+    gap: 20px; /* Espacio fijo entre el texto y la imagen */
+    background-image: url('/landingPage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    padding: 0 50px;
+    color: white;
+    gap: 200px; /* Espacio entre los elementos */
+}
+
+
+
+/* Contenido principal */
+.landing-content {
+    max-width: 50%; /* Limita el ancho del texto */
+}
+
+.landing-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.landing-content p {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    color: #ebeb23; /* Dorado */
+}
+
+.cta-button {
+    background-color: #1e88e5; /* Azul */
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #005bb5;
+}
+
+/* Imagen interna */
+.landing-image img {
+    width: 400px; /* Reduce el tamaño máximo de la imagen */
+    height: auto; /* Mantiene las proporciones */
+    object-fit: contain; /* Evita deformaciones */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+

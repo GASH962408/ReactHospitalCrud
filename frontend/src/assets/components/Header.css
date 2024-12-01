@@ -1,0 +1,32 @@
+/* Header.css */
+header {
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    position: fixed; /* Fija el header en la parte superior */
+    top: 0; /* Coloca el header en la parte superior */
+    left: 0;
+    color: white;
+    z-index: 1000; /* Coloca el header encima de otros elementos */
+}
+
+.Lista {
+    display: flex;
+    justify-content: space-around; /* Espaciado uniforme entre elementos */
+    align-items: center; /* Centrado vertical */
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0; /* Quita márgenes del UL */
+    padding: 0; /* Quita el padding del UL */
+    height: 60px; /* Altura del header */
+}
+
+.Lista li a {
+    text-decoration: none; /* Quita subrayado */
+    color: white; /* Texto blanco */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px; /* Espaciado interno */
+    transition: color 0.3s ease; /* Transición al pasar el cursor */
+}
+
+.Lista li a:hover {
+    color: #ffcc00; /* Color amarillo al pasar el cursor */
+}
