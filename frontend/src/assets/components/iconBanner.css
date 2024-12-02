@@ -1,0 +1,23 @@
+.iconsBanner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Fondo opcional */
+}
+
+.iconItem {
+    text-align: center;
+    color: #4a90e2; /* Color del texto e íconos */
+}
+
+.iconItem p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.iconItem span {
+    font-size: 14px;
+    color: #333; /* Color del texto más pequeño */
+}

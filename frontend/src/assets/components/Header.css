@@ -1,7 +1,7 @@
 /* Header.css */
 header {
     width: 100%; /* Asegura que ocupe todo el ancho */
-    position: fixed; /* Fija el header en la parte superior */
+    position:fixed; /* Fija el header en la parte superior */
     top: 0; /* Coloca el header en la parte superior */
     left: 0;
     color: white;
