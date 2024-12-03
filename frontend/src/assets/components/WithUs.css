@@ -1,0 +1,50 @@
+/* Importar la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+/* Estilo general del contenedor */
+.with-us {
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url(./background.jpg); /* Imagen de fondo */
+  color: #002366; /* Azul oscuro */
+  font-family: 'Inter', sans-serif; /* Aplicar la fuente Inter */
+}
+
+/* Título */
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+}
+
+/* Contenedor de íconos */
+.icons {
+  display: flex;
+  justify-content: space-between; /* Espaciado uniforme entre íconos */
+  gap: 15px; /* Espaciado opcional */
+  flex-wrap: wrap; /* Permite que los íconos se ajusten en pantallas pequeñas */
+}
+
+/* Cada ícono */
+.icon {
+  display: flex;
+  flex-direction: column; /* Organiza elementos en columna */
+  align-items: center; /* Centra el contenido horizontalmente */
+  text-align: center; /* Centra el texto */
+  gap:40px; /* Espaciado entre imagen y texto */
+  flex: 1; /* Todas las columnas ocupan el mismo ancho */
+}
+/* Estilo de las imágenes */
+.icon img {
+  width: 200px; /* Ajustar tamaño de la imagen */
+  height: 200px;
+  border-radius: 50%; /* Crea efecto circular */
+  object-fit: cover; /* Asegura que la imagen mantenga proporciones */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);/* Sombra para destacar */
+}
+
+/* Texto debajo de las imágenes */
+.icon p {
+  font-size: 1.6rem;
+  color: #ffffff; /* Gris oscuro */
+  margin: 0;
+}

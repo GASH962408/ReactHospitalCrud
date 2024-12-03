@@ -1,0 +1,102 @@
+/* Reinicio general */
+.landingback {
+    background-image: url("./landingPage.png"); /* Ruta relativa */
+    background-size: cover; /* Asegura que la imagen cubra todo el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Ajusta la altura del contenedor al 100% de la ventana */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .landing-container {
+    display: flex; /* Flexbox para organizar columnas */
+    align-items: flex-start; /* Centra verticalmente las columnas */
+    justify-content: center; /* Espaciado entre columnas */
+    width: 100%; /* Abarca todo el ancho */
+    padding: 20px; /* Espaciado general */
+  }
+  
+  /* Estilo para las columnas */
+  .column {
+    flex: 1; /* Ambas columnas ocupan el mismo espacio */
+    padding: 20px;
+  }
+  
+  .column-left {
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    margin: 10px;
+  }
+
+  .column-right {
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+
+  .column-right .image {
+    max-width: 500px; /* Tamaño máximo para la imagen */
+    height: auto; /* Mantiene proporciones */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  /* Estilo para los textos */
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+    color: rgb(41, 80, 186);
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 45px;
+  }
+  
+  .location {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 60px;
+  }
+  
+  .location i {
+    margin-right: 8px; /* Espacio entre icono y texto */
+  }
+  
+  /* Estilo para el botón */
+  .appointment-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .appointment-button i {
+    margin-left: 8px; /* Espacio entre texto y icono */
+  }
+  
+  .appointment-button:hover {
+    background-color: #0056b3;
+  }
+  

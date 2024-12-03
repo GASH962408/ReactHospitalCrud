@@ -1,17 +1,17 @@
 import React from 'react';
 import Header from './assets/components/Header';
-import LandingPage from './assets/components/LandingPage';
-import IconBanner from './assets/components/iconBanner';
+import Landing from './assets/components/Landing';
+import './App.css';
+import BannerIcons from './assets/components/BannerIcons';
+import Pa from './assets/components/BannerIcons';
 
 function App() {
     return (
-        <div>
-            <Header />
-            <LandingPage />
-            <IconBanner />
-
-        </div>
+        <>
+        <Landing/>
+        </>
     );
 }
 
 export default App;
+

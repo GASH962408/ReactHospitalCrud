@@ -1,0 +1,41 @@
+/* Contenedor principal */
+.banner-icons {
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Espacio uniforme entre columnas */
+    align-items: center; /* Centra verticalmente los íconos y textos */
+    padding: 20px; /* Espaciado interno */
+    background-color: #fff; /* Fondo blanco */
+    gap: 20px; /* Espacio entre columnas (opcional) */
+  }
+  
+  /* Cada columna (ícono y texto) */
+  .icon-item {
+    display: flex;
+    flex-direction: column; /* Elementos en columna */
+    align-items: center; /* Centra horizontalmente los íconos y textos */
+    text-align: center; /* Centra el texto */
+    flex: 1; /* Cada columna ocupa el mismo espacio */
+    gap: 10px; /* Espacio entre ícono, número y texto */
+  }
+  
+  /* Estilo para los íconos */
+  .icon-item i {
+    font-size: 60px; /* Tamaño del ícono */
+    color: #1d9dd8; /* Color del ícono */
+  }
+  
+  /* Estilo para los números */
+  .icon-item h2 {
+    font-size: 44px; /* Tamaño del número */
+    color: #002366; /* Azul oscuro para números */
+    margin: 0; /* Sin márgenes adicionales */
+  }
+  
+  /* Estilo para el texto */
+  .icon-item p {
+    font-size: 18px; /* Tamaño del texto */
+    color: #000000; /* Color gris oscuro */
+    margin: 0; /* Sin márgenes adicionales */
+    font-weight: bold;
+  }
+  

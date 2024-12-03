@@ -1,32 +1,42 @@
-/* Header.css */
-header {
-    width: 100%; /* Asegura que ocupe todo el ancho */
-    position:fixed; /* Fija el header en la parte superior */
-    top: 0; /* Coloca el header en la parte superior */
-    left: 0;
-    color: white;
-    z-index: 1000; /* Coloca el header encima de otros elementos */
+/* Importación de la fuente Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+/* Reinicio general de márgenes y paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Incluye bordes y padding en el tamaño total */
 }
 
-.Lista {
-    display: flex;
-    justify-content: space-around; /* Espaciado uniforme entre elementos */
-    align-items: center; /* Centrado vertical */
-    list-style-type: none; /* Elimina los puntos de la lista */
-    margin: 0; /* Quita márgenes del UL */
-    padding: 0; /* Quita el padding del UL */
-    height: 60px; /* Altura del header */
+/* Estilo del contenedor */
+body {
+  margin: 0; /* Quita el margen predeterminado del body */
 }
 
-.Lista li a {
-    text-decoration: none; /* Quita subrayado */
-    color: white; /* Texto blanco */
-    font-size: 16px;
-    font-weight: bold;
-    padding: 10px 15px; /* Espaciado interno */
-    transition: color 0.3s ease; /* Transición al pasar el cursor */
+.menu {
+  width: 100%; /* Abarca todo el ancho */
+  font-family: 'Inter', sans-serif; /* Uso de la fuente Inter */
+  font-weight: 600; /* Estilo Semibold */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  background-color: transparent; /* Fondo blanco */
+  padding-bottom: 20px; /* Espaciado interno */
+  padding-top:20px;
 }
 
-.Lista li a:hover {
-    color: #ffcc00; /* Color amarillo al pasar el cursor */
+/* Estilo de la lista */
+.menu ul {
+  display: flex;
+  justify-content: space-between; /* Espacio entre elementos */
+  align-items: center; /* Centrado vertical */
+  list-style: none; /* Quita los puntos de la lista */
+  margin: 0; /* Sin margen externo */
+  padding: 0 20px; /* Espaciado lateral dentro del contenedor */
+}
+
+/* Estilo de los enlaces */
+.menu ul a {
+  text-decoration: none; /* Sin subrayado */
+  color: rgb(255, 255, 255); /* Color del texto */
+  padding: 10px 15px; /* Espaciado interno de los enlaces */
+  font-size: 16px; /* Tamaño de fuente */
 }
