@@ -1,0 +1,70 @@
+/* Contenedor principal */
+.specialties-container {
+    text-align: center;
+    padding: 50px 20px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Título */
+  .title {
+    font-size: 2.5rem;
+    color: #002366; /* Azul oscuro */
+    margin-bottom: 40px;
+  }
+  
+  /* Contenedor de la cuadrícula */
+  .specialties-grid {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las filas se ajusten en pantallas pequeñas */
+    justify-content: space-between; /* Espaciado uniforme entre columnas */
+    gap: 20px; /* Espaciado entre tarjetas */
+  }
+  
+  /* Cada tarjeta */
+  .specialty {
+    flex: 1 1 calc(33.33% - 20px); /* Ocupa 1/3 del ancho menos el espacio */
+    max-width: calc(33.33% - 20px); /* Tamaño máximo por columna */
+    text-align: center;
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta el contenido que sobresale */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación en hover */
+  }
+  
+  /* Efecto hover en tarjetas */
+  .specialty:hover {
+    transform: translateY(-10px); /* Eleva ligeramente la tarjeta */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+  }
+  
+  /* Imágenes */
+  .specialty img {
+    width: 100%; /* Ocupa todo el ancho */
+    height: 150px; /* Altura fija */
+    object-fit: cover; /* Recorta y ajusta la imagen */
+    border-bottom: 1px solid #ddd; /* Línea divisoria */
+  }
+  
+  /* Títulos dentro de las tarjetas */
+  .specialty h3 {
+    font-size: 1.2rem;
+    color: #002366; /* Azul oscuro */
+    margin: 10px 0;
+  }
+  
+  /* Enlaces "Ver +" */
+  .specialty a {
+    font-size: 1rem;
+    color: #007bff; /* Azul para el enlace */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  /* Efecto hover en enlaces */
+  .specialty a:hover {
+    text-decoration: underline;
+  }
+  

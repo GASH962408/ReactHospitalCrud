@@ -3,6 +3,8 @@ import './Landing.css';
 import Header from './Header'; 
 import BannerIcons from './BannerIcons';
 import WithUs from './WithUs';
+import Specialties from './Specialties';
+import Subscription from './Subscription';
 
 const Landing = () => {
   return (
@@ -29,6 +31,8 @@ const Landing = () => {
     </div>
     <BannerIcons/>
     <WithUs/>
+    <Specialties/>
+    <Subscription/>
     </>
   );
 };

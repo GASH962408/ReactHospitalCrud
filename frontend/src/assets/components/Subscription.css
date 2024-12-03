@@ -1,0 +1,63 @@
+/* Contenedor principal */
+.subscription-container {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(90deg, #002366, #00bcd4); /* Gradiente de fondo */
+    color: #fff; /* Color blanco para texto */
+    font-family: 'Inter', sans-serif; /* Fuente Inter */
+  }
+  
+  /* Título principal */
+  .subscription-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ddd;
+  }
+  
+  /* Subtítulo */
+  .subscription-subtitle {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Formulario */
+  .subscription-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espacio entre el input y el botón */
+    flex-wrap: wrap; /* Ajusta en pantallas pequeñas */
+  }
+  
+  /* Campo de entrada */
+  .subscription-input {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 20px; /* Bordes redondeados */
+    flex: 1; /* Ajusta su tamaño */
+    max-width: 400px; /* Limita el ancho máximo */
+    outline: none; /* Quita el borde de enfoque */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Botón */
+  .subscription-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 2px solid #fff; /* Borde blanco */
+    border-radius: 20px; /* Bordes redondeados */
+    background: transparent; /* Fondo transparente */
+    color: #fff; /* Texto blanco */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave */
+  }
+  
+  /* Hover en el botón */
+  .subscription-button:hover {
+    background: #fff; /* Fondo blanco */
+    color: #002366; /* Texto azul oscuro */
+    border: 2px solid #002366; /* Cambia el color del borde */
+  }
+  
