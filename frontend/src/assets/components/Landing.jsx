@@ -6,6 +6,7 @@ import WithUs from './WithUs';
 import Specialties from './Specialties';
 import Subscription from './Subscription';
 import Carousel from './Carousel';
+import MovingIcons from './MovingIcons';
 
 const Landing = () => {
   return (
@@ -35,6 +36,7 @@ const Landing = () => {
     <Specialties/>
     <Subscription/>
     <Carousel/>
+    <MovingIcons/>
     </>
   );
 };

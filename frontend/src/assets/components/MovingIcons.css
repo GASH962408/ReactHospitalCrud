@@ -1,0 +1,32 @@
+.moving-icons-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .moving-icons-container {
+    display: flex;
+    flex-direction: column;
+    animation: moveLeft 20s linear infinite;
+  }
+  
+  .moving-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+  }
+  
+  .moving-row svg {
+    font-size: 2rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
